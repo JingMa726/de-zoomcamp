@@ -1,0 +1,20 @@
+[project]
+name = "de-zoomcamp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jing Ma", email = "na24208@bristol.ac.uk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+]
+
+[project.scripts]
+de-zoomcamp = "de_zoomcamp:main"
+
+[build-system]
+requires = ["uv_build>=0.12.24,<0.13.0"]
+build-backend = "uv_build"

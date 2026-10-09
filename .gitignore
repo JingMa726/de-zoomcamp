@@ -1,0 +1,8 @@
+# 数据文件
+*.parquet
+*.csv
+*.csv.gz
+
+# Python 虚拟环境和缓存
+.venv/
+__pycache__/
